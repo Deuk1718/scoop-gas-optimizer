@@ -1,0 +1,16 @@
+{
+  "version": "1.2.1",
+  "description": "Agent Skill CLI for SEO, GEO, AEO, accessibility, performance, and deployment-readiness audits",
+  "homepage": "https://github.com/Deuk1718/GAS-Optimizer",
+  "license": "MIT",
+  "url": "https://github.com/Deuk1718/GAS-Optimizer/releases/download/v1.2.1/gas-optimizer-v1.2.1-windows.zip",
+  "hash": "8308eb0538743296236b3f692f21e3d1e05fba38c0a4c7c905ea943ffb4bc202",
+  "extract_dir": "gas-optimizer-v1.2.1",
+  "bin": "bin\\gas-optimizer.cmd",
+  "notes": [
+    "Package managers install only launcher files and package metadata; they must not create, update, back up, or remove user or project skill directories.",
+    "Run 'gas-optimizer install' to copy the skill into a host location.",
+    "After upgrading the package, run 'gas-optimizer sync' to update recorded installations.",
+    "Installation state is recorded at $GAS_OPTIMIZER_HOME/installations.json with schemaVersion 1 and installedVersion."
+  ]
+}
